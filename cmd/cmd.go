@@ -6,6 +6,7 @@ import (
 
 func init() {
 	cmd.AddCommand(
+		dataCmd,
 		outputsCmd,
 		variablesCmd,
 	)
